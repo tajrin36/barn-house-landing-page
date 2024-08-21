@@ -25,9 +25,12 @@
                     extend: {
                         colors: {
                             clifford: '#da373d',
-                            tiya: '#ABEF5F',
+                            barnGreen: '#ABEF5F',
 
                         }
+                    },
+                    fontFamily: {
+                        'manrope': ['Manrope', 'sans-serif']
                     }
                 }
             }
@@ -35,7 +38,7 @@
 
         <!-- Custom Css Value -->
         <style>
-            .tiya-light {
+            .barnGreen-light {
                 background: rgba(171, 239, 95, 0.50);
             }
         </style>
@@ -43,47 +46,91 @@
         <!-- Fav icon -->
     </head>
 
-    <body>
+    <body class="font-manrope ">
         <!-- Header Section -->
-        <header>
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                        class="w-full" />
-                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+        <header class="md:container mx-auto bg-gradient-to-t from-slate-50 to-white">
+            <section class="">
+                <div class="navbar bg-base-100">
+                    <!-- navbar start -->
+                    <div class="navbar-start">
+                        
+                        <!-- navbar logo -->
+                        <div class="bg-barnGreen rounded-full p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                            
+                        </div>
+                        <a class="btn btn-ghost text-4xl font-extrabold">Rinterio</a>
+                    </div>
+                    
+                    <!-- navbar center -->
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li class="text-[#494949] text-base font-extrabold"><a>Home</a></li>
+                            <li class="text-[#494949] text-base font-normal"><a>Services</a></li>
+                            <li class="text-[#494949] text-base font-normal"><a>Portfolio</a></li>
+                            <li class="text-[#494949] text-base font-normal"><a>Blogs</a></li>
+                            <li class="text-[#494949] text-base font-normal"><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- navbar end -->
+                    <div class=" navbar-end lg:flex gap-3">
+                        <!-- search button -->
+                        <div class="hidden bg-white p-2 border border-slate-200 rounded-full lg:inline-block md:inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+
+                        </div>
+                        <!-- cart button -->
+                        <div class="hidden bg-white  p-2 border border-slate-200 rounded-full lg:inline-block md:inline-block ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+
+                        </div>
+                        <a class="hidden btn text-xl font-extrabold bg-barnGreen rounded-3xl lg:flex md:flex ">Book Consult
+                            <div class="bg-black rounded-full p-[3px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="white" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </div>
+                        </a>
+                        <div class="dropdown">
+                            <div tabindex="0" role="button"
+                                class="btn btn-ghost lg:hidden border rounded-full border-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-0 shadow  max-w-full overflow-hidden">
+                                <li><a>Home</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                        class="w-full" />
-                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                        class="w-full" />
-                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                        class="w-full" />
-                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-            </div>
+            </section>
         </header>
 
         <!-- Main Section -->
-        <main>
+        <main class="bg-[#F4F4F4]">
         </main>
 
         <!-- Footer Section -->
