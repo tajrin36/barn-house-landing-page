@@ -23,11 +23,13 @@
             tailwind.config = {
                 theme: {
                     extend: {
+
                         colors: {
                             clifford: '#da373d',
                             barnGreen: '#ABEF5F',
 
                         }
+
                     },
                     fontFamily: {
                         'manrope': ['Manrope', 'sans-serif']
@@ -375,14 +377,17 @@
                             class="bg-white p-5  mb-4 shadow-xl  rounded-2xl lg:col-span-8 lg:flex lg:flex-row lg:items-center  border border-[#E9E9E9] lg:shadow-sm">
 
                             <!-- image div -->
-                            <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center lg:gap-3">
-                                <img class="w-full h-auto scale-y-125" src="./assets/img1.png" alt="">
+                            <div
+                                class="flex items-center justify-center lg:flex lg:items-center lg:justify-center lg:gap-3">
+                                <img class="w-full h-auto lg:scale-y-125" src="./assets/img1.png" alt="">
                             </div>
 
                             <!-- text div -->
                             <div class="p-2">
-                                <h1 class="text-[#494949] text-xl font-extrabold mb-3">Commercial</h1>
-                                <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with its
+                                <h1 class="text-[#494949] text-xl font-extrabold mb-3 lg:text-2xl lg:font-extrabold">
+                                    Commercial</h1>
+                                <p class="text-[#737373] text-base font-medium mb-3 lg:text-base lg:font-medium">The
+                                    barn house captivates with its
                                     blend of rustic charm and modern. The barn house captivates with its blend of rustic
                                     charm and modern .</p>
                                 <button class="btn mt-2 text-base font-extrabold">View Details
@@ -419,13 +424,15 @@
 
                             <!-- image div -->
                             <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center">
-                                <img class="w-full h-auto scale-y-150 scale-x-110" src="./assets/img4.png" alt="">
+                                <img class="w-full h-auto lg:scale-y-150 lg:scale-x-110" src="./assets/img4.png" alt="">
                             </div>
 
                             <!-- text div -->
                             <div class="p-2">
-                                <h1 class="text-[#494949] text-xl font-extrabold mb-3">Commercial</h1>
-                                <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with its
+                                <h1 class="text-[#494949] text-xl font-extrabold mb-3 lg:text-2xl lg:font-extrabold">
+                                    Commercial</h1>
+                                <p class="text-[#737373] text-base font-medium mb-3 lg:text-base lg:font-medium">The
+                                    barn house captivates with its
                                     blend of rustic charm and modern. The barn house captivates with its blend of rustic
                                     charm and modern .</p>
                                 <button class="btn mt-2 text-base font-extrabold">View Details
@@ -440,18 +447,18 @@
                                 </button>
                             </div>
                         </div>
-                        
-                        
+
+
                         <!-- div-5 -->
-                        <div
-                            class="flex items-center justify-center p-5 bg-white mb-4  rounded-2xl shadow-xl lg:col-span-3
+                        <div class="flex items-center justify-center p-5 bg-white mb-4  rounded-2xl shadow-xl lg:col-span-3
                             lg:shadow-sm border border-[#E9E9E9]">
                             <img class="w-full h-auto" src="./assets/img5.png" alt="">
                         </div>
                     </div>
 
                     <!-- div-6 -->
-                    <div class="flex items-center justify-center p-5 bg-white mb-4 lg:hidden  rounded-2xl shadow-xl border border-[#E9E9E9]">
+                    <div
+                        class="flex items-center justify-center p-5 bg-white mb-4 lg:hidden  rounded-2xl shadow-xl border border-[#E9E9E9]">
                         <img class="w-full h-auto" src="./assets/img5.png" alt="">
                     </div>
 
@@ -670,10 +677,78 @@
                     </div>
             </section>
 
+            <!-- next project section -->
+            <section class="mt-20 h-[42rem]" style="background-image: url(./assets/bg.jpg);">
+                <div class="md:container mx-auto">
+
+                    <!-- heading section -->
+                    <div>
+                        <div class="flex flex-col lg:flex lg:flex-col items-center justify-center">
+                            <button class="btn bg-[#e5facf] text-base font-bold rounded-3xl mt-7 mb-4 lg:mt-20">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                                Let’s Connect
+                            </button>
+                            <h1 class="text-2xl font-bold lg:text-4xl lg:font-bold lg:mb-3">Let’s Discuss Next Project
+                            </h1>
+                            <p
+                                class="text-sm font-medium w-4/5 text-center mb-5 lg:text-base lg:font-medium lg:w-1/2 lg:text-center">
+                                The barn house captivates with its blend of rustic charm and modern sophistication,
+                                featuring weathered wood, sleek metal accents.</p>
+                        </div>
+                    </div>
+
+                    <!-- input section container -->
+                    <div>
+
+                        <!-- div1 -->
+                        <div class="flex flex-col items-center justify-center md:flex md:flex-row md:gap-5">
+                            <input type="text" placeholder="First Name*"
+                                class="input input-bordered w-full max-w-xs mb-4 rounded-3xl" />
+                            <input type="text" placeholder="Last Name*"
+                                class="input input-bordered w-full max-w-xs mb-4 rounded-3xl" />
+                        </div>
+
+                        <!-- div2 -->
+                        <div class="flex flex-col items-center justify-center md:flex md:flex-row md:gap-5">
+                            <input type="text" placeholder="Phone Number*"
+                                class="input input-bordered w-full max-w-xs mb-4 rounded-3xl" />
+                            <input type="text" placeholder="Email Number*"
+                                class="input input-bordered w-full max-w-xs mb-4 rounded-3xl" />
+                        </div>
+
+                        <!-- div3 -->
+                        <div class="flex flex-col items-center justify-center mb-4">
+                            <textarea placeholder="Write your message here"
+                                class="textarea textarea-bordered textarea-lg  rounded-3xl w-[20rem] md:w-[40rem]"></textarea>
+                        </div>
+
+                        <!-- button -->
+                        <a class="flex items-center justify-center mx-auto w-[90%] btn text-xl font-extrabold bg-barnGreen rounded-3xl lg:flex md:flex md:w-[40rem] mb-20 border border-black">Send Mail
+                            <div class="bg-black rounded-full p-[3px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="white" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </section>
+
+
         </main>
 
         <!-- Footer Section -->
-        <footer>
+        <footer class="bg-[#1C1C1C]">
+            
         </footer>
     </body>
 
