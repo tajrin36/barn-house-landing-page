@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barn House Landing Page</title>
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Daisyui CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Google Font CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+        <!-- Custom value Tailwind -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                            barnGreen: '#ABEF5F',
+
+                        }
+                    },
+                    fontFamily: {
+                        'manrope': ['Manrope', 'sans-serif']
+                    }
+                }
+            }
+        </script>
+
+        <!-- Custom Css Value -->
+        <style>
+            .barnGreen-light {
+                background: rgba(171, 239, 95, 0.50);
+            }
+        </style>
+
+        <!-- Fav icon -->
+    </head>
+<body>
+    <!-- grid layout container top -->
+    <div class=" lg:grid lg:grid-cols-12 lg:grid-rows-1">
+
+        <!-- div 1 -->
+        <div class="lg:col-span-8">
+
+            <div
+                class="w-11/12 flex flex-col justify-center items-center mx-auto py-8 mt-5 bg-white rounded-2xl border border-[#E9E9E9] lg:flex lg:flex-row lg:px-10 lg:w-[97%]">
+                <div>
+                    <img src="./assets/img1.png" alt="">
+                </div>
+                <div class="px-12">
+                    <h1 class="mt-4 text-xl font-extrabold lg:text-2xl lg:font-extrabold">Commercial
+                    </h1>
+                    <p class="mt-2 text-base font-medium w-[90%] lg:text-base lg:font-medium lg:w-4/5">
+                        The barn house captivates with its blend of rustic charm and modern. </p>
+                    <button class="btn mt-2 text-base font-extrabold">View Details
+                        <div class="bg-barnGreen rounded-full p-[3px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="2.5" stroke="black" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </div>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- div 2 -->
+        <div
+            class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl lg:col-span-4 lg:w-auto lg:h-[88%] lg:mt-6 border border-[#E9E9E9] ">
+            <img src="./assets/img2.png" alt="">
+        </div>
+    </div>
+
+    <!-- container bottom -->
+    <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-1 ">
+        <!-- div 3 -->
+        <div
+            class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl flex justify-center items-center border border-[#E9E9E9] lg:col-span-3">
+            <img src="./assets/img3.png" alt="">
+        </div>
+
+        <!-- div 4 -->
+        <div class="lg:col-span-6">
+            <div
+                class="w-11/12 flex flex-col justify-center items-center mx-auto py-8 mt-5 bg-white rounded-2xl border border-[#E9E9E9] lg:flex lg:flex-row lg:px-10 lg:w-[97%]">
+                <div>
+                    <img src="./assets/img4.png" alt="">
+                </div>
+                <div class="px-12">
+                    <h1 class="mt-4 text-xl font-extrabold lg:text-2xl lg:font-extrabold">Commercial
+                    </h1>
+                    <p class="mt-2 text-base font-medium w-[90%] lg:text-base lg:font-medium lg:w-4/5">
+                        The barn house captivates with its blend of rustic charm and modern. </p>
+                    <button class="btn mt-2 text-base font-extrabold">View Details
+                        <div class="bg-barnGreen rounded-full p-[3px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="2.5" stroke="black" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </div>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- div 5 -->
+        <div
+            class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl flex justify-center items-center border border-[#E9E9E9] lg:col-span-3">
+            <img src="./assets/img5.png" alt="">
+        </div>
+    </div>
+    <!-- div 6 -->
+    <div
+        class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl flex justify-center items-center lg:hidden">
+        <img src="./assets/img5.png" alt="">
+    </div>
+</body>
+</html>

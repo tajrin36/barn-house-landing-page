@@ -344,7 +344,7 @@
             </section>
 
             <!-- latest protfolio section -->
-            <section class="lg:mt-7 md:hidden lg:block">
+            <section class="lg:mt-7 md:hidden lg:block lg:bg-white">
 
                 <!-- div for adjusting mx-auto and container -->
                 <div class="md:container mx-auto">
@@ -366,91 +366,308 @@
                             weathered wood, sleek metal accents.</p>
                     </div>
 
-                    <!-- grid layout container top -->
-                    <div class=" lg:grid lg:grid-cols-4 lg:grid-rows-1">
+                    <!-- grid top -->
+                    <div class="lg:grid lg:grid-cols-12 lg:grid-rows-1 lg:gap-5">
 
-                        <!-- div 1 -->
-                        <div class="lg:col-span-3">
 
-                            <div
-                                class="w-11/12 flex flex-col justify-center items-center mx-auto py-8 mt-5 bg-white lg:flex lg:flex-row lg:px-10 lg:w-[95%] rounded-2xl border border-[#E9E9E9]">
-
-                                <div>
-                                    <img src="./assets/img1.png" alt="">
-                                </div>
-
-                                <div class="px-12">
-                                    <h1 class="mt-4 text-xl font-extrabold lg:text-2xl lg:font-extrabold">Commercial
-                                    </h1>
-                                    <p class="mt-2 text-base font-medium w-[90%] lg:text-base lg:font-medium lg:w-4/5">
-                                        The barn house captivates with its blend of
-                                        rustic charm and modern. The barn
-                                        house captivates with its blend of rustic charm and modern .</p>
-                                    <button class="btn mt-2 text-base font-extrabold">View Details
-                                        <div class="bg-barnGreen rounded-full p-[3px]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="2.5" stroke="black" class="size-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                            </svg>
-                                        </div>
-
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- div 2 -->
+                        <!-- div-1 -->
                         <div
-                            class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl lg:w-auto lg:h-[88%] lg:mt-6 border border-[#E9E9E9] ">
-                            <img src="./assets/img2.png" alt="">
-                        </div>
-                    </div>
+                            class="bg-white p-5  mb-4 shadow-xl  rounded-2xl lg:col-span-8 lg:flex lg:flex-row lg:items-center  border border-[#E9E9E9] lg:shadow-sm">
 
-                    <!-- container bottom -->
-                    <div class="flex flex-col-reverse lg:grid lg:grid-cols-4 lg:grid-rows-1">
-                        <!-- div 3 -->
-                        <div class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl flex justify-center items-center border border-[#E9E9E9]">
-                            <img src="./assets/img3.png" alt="">
-                        </div>
+                            <!-- image div -->
+                            <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center lg:gap-3">
+                                <img class="w-full h-auto scale-y-125" src="./assets/img1.png" alt="">
+                            </div>
 
-                        <!-- div 4 -->
-                        <div class="lg:col-span-2">
-                            <div
-                                class="w-11/12 flex flex-col justify-center items-center mx-auto py-8 mt-5 bg-white rounded-2xl border border-[#E9E9E9] lg:flex lg:flex-row lg:px-10 lg:w-[97%]">
-                                <div>
-                                    <img src="./assets/img4.png" alt="">
-                                </div>
-                                <div class="px-12">
-                                    <h1 class="mt-4 text-xl font-extrabold lg:text-2xl lg:font-extrabold">Commercial
-                                    </h1>
-                                    <p class="mt-2 text-base font-medium w-[90%] lg:text-base lg:font-medium lg:w-4/5">
-                                        The barn house captivates with its blend of rustic charm and modern. </p>
-                                    <button class="btn mt-2 text-base font-extrabold">View Details
-                                        <div class="bg-barnGreen rounded-full p-[3px]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="2.5" stroke="black" class="size-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                            </svg>
-                                        </div>
+                            <!-- text div -->
+                            <div class="p-2">
+                                <h1 class="text-[#494949] text-xl font-extrabold mb-3">Commercial</h1>
+                                <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with its
+                                    blend of rustic charm and modern. The barn house captivates with its blend of rustic
+                                    charm and modern .</p>
+                                <button class="btn mt-2 text-base font-extrabold">View Details
+                                    <div class="bg-barnGreen rounded-full p-[3px]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="2.5" stroke="black" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
 
-                                    </button>
-                                </div>
+                                </button>
                             </div>
                         </div>
 
-                        <!-- div 5 -->
-                        <div class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl flex justify-center items-center border border-[#E9E9E9]">
-                            <img src="./assets/img5.png" alt="">
+                        <!-- div-2 -->
+                        <div
+                            class="flex items-center justify-center p-5 bg-white mb-4  rounded-2xl shadow-xl lg:col-span-4 border border-[#E9E9E9] lg:shadow-sm">
+                            <img class="w-full h-auto" src="./assets/img2.png" alt="">
                         </div>
                     </div>
-                    <!-- div 6 -->
-                    <div class="mx-auto w-[87%] p-6 mt-3 bg-white rounded-xl flex justify-center items-center lg:hidden">
-                        <img src="./assets/img5.png" alt="">
+
+                    <!-- grid bottom -->
+                    <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-1 lg:gap-5">
+                        <!-- div-3 -->
+                        <div
+                            class="flex items-center justify-center p-5 bg-white mb-4  rounded-2xl shadow-xl lg:col-span-3 border border-[#E9E9E9] lg:shadow-sm">
+                            <img class="w-full h-auto lg:block" src="./assets/img3.png" alt="">
+                        </div>
+
+                        <!-- div-4 -->
+                        <div
+                            class="bg-white p-5  mb-4 shadow-xl  rounded-2xl lg:col-span-6 lg:flex lg:flex-row lg:items-center  border border-[#E9E9E9] lg:shadow-sm lg:gap-3">
+
+                            <!-- image div -->
+                            <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center">
+                                <img class="w-full h-auto scale-y-150 scale-x-110" src="./assets/img4.png" alt="">
+                            </div>
+
+                            <!-- text div -->
+                            <div class="p-2">
+                                <h1 class="text-[#494949] text-xl font-extrabold mb-3">Commercial</h1>
+                                <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with its
+                                    blend of rustic charm and modern. The barn house captivates with its blend of rustic
+                                    charm and modern .</p>
+                                <button class="btn mt-2 text-base font-extrabold">View Details
+                                    <div class="bg-barnGreen rounded-full p-[3px]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="2.5" stroke="black" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+
+                                </button>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- div-5 -->
+                        <div
+                            class="flex items-center justify-center p-5 bg-white mb-4  rounded-2xl shadow-xl lg:col-span-3
+                            lg:shadow-sm border border-[#E9E9E9]">
+                            <img class="w-full h-auto" src="./assets/img5.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- div-6 -->
+                    <div class="flex items-center justify-center p-5 bg-white mb-4 lg:hidden  rounded-2xl shadow-xl border border-[#E9E9E9]">
+                        <img class="w-full h-auto" src="./assets/img5.png" alt="">
                     </div>
 
                 </div>
+            </section>
+
+            <!-- articles and news section -->
+            <section class="md:container mx-auto">
+
+                <!-- section container -->
+                <div>
+
+                    <!-- heading container -->
+                    <div>
+                        <div class="flex flex-col lg:flex lg:flex-col items-center justify-center">
+                            <button class="btn bg-[#e5facf] text-base font-bold rounded-3xl mt-7 mb-4 lg:mt-14">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                                Rinterio News
+                            </button>
+                            <h1 class="text-2xl font-bold lg:text-4xl lg:font-bold lg:mb-3">Read Our Articles and News
+                            </h1>
+                            <p
+                                class="text-sm font-medium w-4/5 text-center lg:text-base lg:font-medium lg:w-1/2 lg:text-center">
+                                The barn house captivates with its blend of rustic charm and modern sophistication,
+                                featuring weathered wood, sleek metal accents.</p>
+                        </div>
+                    </div>
+
+                    <!-- card container -->
+                    <div class="lg:grid lg:grid-cols-3 lg: gap-5 mt-5">
+
+
+                        <!-- card 1 -->
+                        <div
+                            class="mb-4 w-[90%] mx-auto p-5 bg-white rounded-2xl shadow-xl lg:w-[100%] lg:block md:flex md:gap-4 md:mb-4">
+
+                            <!-- image div -->
+                            <div class="flex items-center justify-center md:w-full md:h-auto">
+                                <img class="w-full" src="./assets/article1.png" alt="">
+                            </div>
+
+                            <!-- calander,admin and text -->
+                            <div class=" lg:w-[92%] p-1 pt-4">
+
+                                <!-- calender and admin -->
+                                <div class="flex gap-3">
+
+                                    <!-- calender -->
+                                    <div class="flex gap-1 items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="#737373" class="size-7  ">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                        </svg>
+                                        <p class="text-[#737373] text-sm font-medium">July14, 2024</p>
+                                    </div>
+
+                                    <!-- admin -->
+                                    <div class="flex gap-1 items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="#737373" class="size-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p class="text-[#737373] text-sm font-medium">By Admin</p>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- text div -->
+                                <div>
+                                    <h1 class="text-[#494949] text-xl font-extrabold mt-3 mb-3">How to choose the
+                                        furniture right
+                                        of your home.</h1>
+                                    <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with
+                                        its
+                                        blend of rustic charm and modern. </p>
+                                    <button class="btn mt-2 text-base font-extrabold">View Details
+                                        <div class="bg-barnGreen rounded-full p-[3px]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="2.5" stroke="black" class="size-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div
+                            class="mb-4 w-[90%] mx-auto p-5 bg-white rounded-2xl shadow-xl lg:w-[100%] lg:block md:flex md:gap-4 md:mb-4">
+
+                            <!-- image div -->
+                            <div class="flex items-center justify-center md:w-full md:h-auto">
+                                <img class="w-full" src="./assets/article2.png" alt="">
+                            </div>
+
+                            <!-- calander,admin and text -->
+                            <div class=" lg:w-[92%] p-1 pt-4">
+
+                                <!-- calender and admin -->
+                                <div class="flex gap-3">
+
+                                    <!-- calender -->
+                                    <div class="flex gap-1 items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="#737373" class="size-7  ">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                        </svg>
+                                        <p class="text-[#737373] text-sm font-medium">July14, 2024</p>
+                                    </div>
+
+                                    <!-- admin -->
+                                    <div class="flex gap-1 items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="#737373" class="size-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p class="text-[#737373] text-sm font-medium">By Admin</p>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- text div -->
+                                <div>
+                                    <h1 class="text-[#494949] text-xl font-extrabold mt-3 mb-3">How to choose the
+                                        furniture right
+                                        of your home.</h1>
+                                    <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with
+                                        its
+                                        blend of rustic charm and modern. </p>
+                                    <button class="btn mt-2 text-base font-extrabold">View Details
+                                        <div class="bg-barnGreen rounded-full p-[3px]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="2.5" stroke="black" class="size-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div
+                            class="mb-4 w-[90%] mx-auto p-5 bg-white rounded-2xl shadow-xl lg:w-[100%] lg:block md:flex md:gap-4 md:mb-4">
+
+                            <!-- image div -->
+                            <div class="flex items-center justify-center md:w-full md:h-auto">
+                                <img class="w-full" src="./assets/article3.png" alt="">
+                            </div>
+
+                            <!-- calander,admin and text -->
+                            <div class=" lg:w-[92%] p-1 pt-4">
+
+                                <!-- calender and admin -->
+                                <div class="flex gap-3">
+
+                                    <!-- calender -->
+                                    <div class="flex gap-1 items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="#737373" class="size-7  ">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                        </svg>
+                                        <p class="text-[#737373] text-sm font-medium">July14, 2024</p>
+                                    </div>
+
+                                    <!-- admin -->
+                                    <div class="flex gap-1 items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="#737373" class="size-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+                                        <p class="text-[#737373] text-sm font-medium">By Admin</p>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- text div -->
+                                <div>
+                                    <h1 class="text-[#494949] text-xl font-extrabold mt-3 mb-3">How to choose the
+                                        furniture right
+                                        of your home.</h1>
+                                    <p class="text-[#737373] text-base font-medium mb-3">The barn house captivates with
+                                        its
+                                        blend of rustic charm and modern. </p>
+                                    <button class="btn mt-2 text-base font-extrabold">View Details
+                                        <div class="bg-barnGreen rounded-full p-[3px]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="2.5" stroke="black" class="size-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </section>
 
         </main>
